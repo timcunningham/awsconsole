@@ -1478,6 +1478,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="20002",	toPort="20002", cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="5432",	toPort="5432", 	cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1521",	toPort="1521", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="5000",	toPort="5000", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="81",		toPort="81", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="85",		toPort="85", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="87",		toPort="87", 	cidrIP="0.0.0.0/0")>
 		<cfreturn>
 	</cffunction>
 	
