@@ -1462,26 +1462,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="110",		toPort="110", 	cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="143",		toPort="143", 	cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="843",		toPort="843", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1024",	toPort="1024", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1841",	toPort="1841", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="3128",	toPort="3128", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="4101",	toPort="4101", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="8012",	toPort="8016", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="8500",	toPort="8500", 	cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="8575",	toPort="8575", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="49152",	toPort="65534", cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1234",	toPort="1234", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="50000",	toPort="50000", cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="9090",	toPort="9090", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="9088",	toPort="9088", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1432",	toPort="1432", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="20002",	toPort="20002", cidrIP="0.0.0.0/0")>
 		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="5432",	toPort="5432", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1521",	toPort="1521", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="5000",	toPort="5000", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="81",		toPort="81", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="85",		toPort="85", 	cidrIP="0.0.0.0/0")>
-		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="87",		toPort="87", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="25",		toPort="25", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="5500",	toPort="5500", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="1237",	toPort="1237", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="8012",	toPort="8016", 	cidrIP="0.0.0.0/0")>
+		<cfset addpolicy(groupStruct="#local.defaultGroup#", 	ipProtocol="tcp", 	fromPort="8088",	toPort="8088", 	cidrIP="0.0.0.0/0")>		
 		<cfreturn>
 	</cffunction>
 	
