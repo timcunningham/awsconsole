@@ -4,7 +4,7 @@
 	
 	<cfoutput>ec2_#i#<br></cfoutput>
 	<cfflush>
-	<cfset tick1 = gettickCount()>
+	<cfset tick2 = gettickCount()>
 	
 	<cfset "ec2_#i#" = createObject("component","cfcs.ec2").init("#i#","#i#")>
 	<cfset tock2 =  gettickCount()>
